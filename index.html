@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>シンプルなWebサイト</title>
+  <style>
+    /* リセット */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      padding-bottom: 80px; /* footer分のスペースを確保 */
+      line-height: 1.6;
+    }
+
+    /* ヘッダー */
+    header {
+      background-color: #440000; /* 指定色に変更 */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* メインコンテンツ */
+    main {
+      padding: 20px;
+      color: #cc0000; /* 指定色に変更 */
+    }
+
+    /* フッター固定 */
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #440000; /* 指定色に変更 */
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    footer a {
+      color: #ff6666;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>私のシンプルなWebサイト</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>自己紹介</h2>
+      <p>こんにちは、私はWeb開発者です。</p>
+    </section>
+
+    <section>
+      <h2>プロジェクト</h2>
+      <p>これまでに制作した作品を紹介します。</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>連絡先: example@example.com</p>
+    <p>
+      SNS:
+      <a href="#">Twitter</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
